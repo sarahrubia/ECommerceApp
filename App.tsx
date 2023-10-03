@@ -2,8 +2,10 @@ import React from 'react';
 import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import ProductScreen from './src/screens/ProductScreen';
+
+// import ProductScreen from './src/screens/ProductScreen';
 // import HomeScreen from './src/screens/HomeScreen';
+import ShoppingCartScreen from './src/screens/ShoppingCartScreen';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -19,7 +21,8 @@ function App(): JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       {/* <HomeScreen /> */}
-      <ProductScreen />
+      {/* <ProductScreen /> */}
+      <ShoppingCartScreen />
     </SafeAreaView>
   );
 }

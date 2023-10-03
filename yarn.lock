@@ -1683,6 +1683,10 @@
     prompts "^2.4.0"
     semver "^7.5.2"
 
+"@react-native-picker/picker@react-native-picker/picker":
+  version "2.5.1"
+  resolved "https://codeload.github.com/react-native-picker/picker/tar.gz/3041756c969b347359821cb6ce7e0d9ce2290355"
+
 "@react-native/assets-registry@^0.72.0":
   version "0.72.0"
   resolved "https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.72.0.tgz"
